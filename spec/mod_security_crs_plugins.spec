@@ -3,15 +3,14 @@ Name: mod_security_crs_plugins
 Version: 1.0
 Release: 0%{?dist}
 License: ASL 2.0
-URL: https://github.com/german-gonzalez-ruiz/mod_security_crs_plugins
+URL: https://github.com/tilsor/mod_security_crs_plugins
 Group: System Environment/Daemons
 
-#Source0: https://codeload.github.com/german-gonzalez-ruiz/mod_security_crs_plugins/tar.gz/refs/tags/v%%{version}
-Source0: https://codeload.github.com/german-gonzalez-ruiz/mod_security_crs_plugins/tar.gz/refs/tags/v%{version}
-Source1: https://raw.githubusercontent.com/german-gonzalez-ruiz/mod_security_crs_plugins/main/config/plugin-default-config.conf
-Source2: https://raw.githubusercontent.com/german-gonzalez-ruiz/mod_security_crs_plugins/main/config/REQUEST-900-0-PLUGINS-CONFIG.conf
-Source3: https://raw.githubusercontent.com/german-gonzalez-ruiz/mod_security_crs_plugins/main/config/REQUEST-900-EXCLUSION-RULES-PLUGINS-BEFORE-CRS.conf
-Source4: https://raw.githubusercontent.com/german-gonzalez-ruiz/mod_security_crs_plugins/main/config/RESPONSE-999-EXCLUSION-RULES-PLUGINS-AFTER-CRS.conf
+Source0: https://codeload.github.com/tilsor/mod_security_crs_plugins/tar.gz/refs/tags/v%{version}
+Source1: https://raw.githubusercontent.com/tilsor/mod_security_crs_plugins/main/config/plugin-default-config.conf
+Source2: https://raw.githubusercontent.com/tilsor/mod_security_crs_plugins/main/config/REQUEST-900-0-PLUGINS-CONFIG.conf
+Source3: https://raw.githubusercontent.com/tilsor/mod_security_crs_plugins/main/config/REQUEST-900-EXCLUSION-RULES-PLUGINS-BEFORE-CRS.conf
+Source4: https://raw.githubusercontent.com/tilsor/mod_security_crs_plugins/main/config/RESPONSE-999-EXCLUSION-RULES-PLUGINS-AFTER-CRS.conf
 
 BuildArch: noarch
 Requires: mod_security >= 2.9.6
